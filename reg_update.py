@@ -481,6 +481,18 @@ def run_update(project_manifest_path: Path = None, force: bool = False):
             logging.warning("Update 'launch.legal_review_complete' and 'launch.legal_review_date' in your manifest.")
             logging.warning("⚠️ " * 20)
 
+# ── Auto-commit and push changes to GitHub ──
+    if material_changes or advisory_changes:
+        try:
+            import subprocess
+            commit_msg = f"chore: registry update {datetime.now().strftime('%Y-%m-%d')} — {len(material_changes)} material, {len(advisory_changes)} advisory"
+            subprocess.run(["git", "add", "-A"], cwd=REGISTRY_ROOT, check=True)
+            subprocess.run(["git", "commit", "-m", commit_msg], cwd=REGISTRY_ROOT, check=True)
+            subprocess.run(["git", "push"], cwd=REGISTRY_ROOT, check=True)
+            logging.info("✅ Registry changes committed and pushed to GitHub")
+        except Exception as e:
+            logging.warning(f"Git push failed — changes saved locally only: {e}")
+
     return {
         "material_changes": material_changes,
         "advisory_changes": advisory_changes,
