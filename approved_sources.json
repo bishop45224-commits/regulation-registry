@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "last_updated": "2026-05-02",
+    "version": "1.0",
+    "note": "Only domains listed here may be queried by the update script. No open web crawling permitted."
+  },
+  "federal": {
+    "label": "Federal Primary Sources",
+    "tier": 1,
+    "sources": [
+      { "name": "Federal Register",     "domain": "federalregister.gov",       "note": "All federal rules, proposed rules, and notices" },
+      { "name": "Regulations.gov",      "domain": "regulations.gov",           "note": "Active rulemaking and public comment periods" },
+      { "name": "Congress.gov",         "domain": "congress.gov",              "note": "Legislation tracking" },
+      { "name": "eCFR",                 "domain": "ecfr.gov",                  "note": "Current codified federal regulations" }
+    ]
+  },
+  "privacy_data": {
+    "label": "Privacy & Data",
+    "tier": 2,
+    "sources": [
+      { "name": "FTC",                  "domain": "ftc.gov",                   "note": "Federal Trade Commission — primary federal privacy enforcement" },
+      { "name": "CFPB",                 "domain": "consumerfinance.gov",       "note": "Consumer Financial Protection Bureau — financial data" }
+    ]
+  },
+  "ai_automation": {
+    "label": "AI & Automation",
+    "tier": 2,
+    "sources": [
+      { "name": "NIST",                 "domain": "nist.gov",                  "note": "AI Risk Management Framework and guidance" },
+      { "name": "FTC",                  "domain": "ftc.gov",                   "note": "FTC AI enforcement and guidance (shared with privacy)" }
+    ]
+  },
+  "insurance_tech": {
+    "label": "Insurance Technology",
+    "tier": 2,
+    "sources": [
+      { "name": "NAIC",                 "domain": "naic.org",                  "note": "TIER 2.5 — quasi-governmental. Model laws adopted by states. Weight accordingly.", "quasi_governmental": true }
+    ]
+  },
+  "financial_services": {
+    "label": "Financial Services",
+    "tier": 2,
+    "sources": [
+      { "name": "CFTC",                 "domain": "cftc.gov",                  "note": "Commodity Futures Trading Commission" },
+      { "name": "SEC",                  "domain": "sec.gov",                   "note": "Securities and Exchange Commission" }
+    ]
+  },
+  "employment_tech": {
+    "label": "Employment & Labor",
+    "tier": 2,
+    "sources": [
+      { "name": "DOL",                  "domain": "dol.gov",                   "note": "Department of Labor" },
+      { "name": "EEOC",                 "domain": "eeoc.gov",                  "note": "Equal Employment Opportunity Commission" }
+    ]
+  }
+}

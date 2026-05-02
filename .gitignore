@@ -1,0 +1,4 @@
+﻿logs/
+*.hash
+__pycache__/
+*.pyc

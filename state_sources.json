@@ -1,0 +1,533 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "last_seeded": "2026-05-02",
+    "note": "All 50 states pre-seeded. Entries activate only when a project manifest declares that state. null values mean that domain defers to the federal source — no dedicated state agency tracked. Verify URLs before first activation.",
+    "activation_log": []
+  },
+  "state_sources": {
+    "AL": {
+      "name": "Alabama",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "aldoi.gov",
+      "financial":   "asc.alabama.gov",
+      "privacy":     null,
+      "employment":  "labor.alabama.gov"
+    },
+    "AK": {
+      "name": "Alaska",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "commerce.alaska.gov/web/ins",
+      "financial":   "commerce.alaska.gov/web/bsc/sbs.aspx",
+      "privacy":     null,
+      "employment":  "labor.alaska.gov"
+    },
+    "AZ": {
+      "name": "Arizona",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.az.gov",
+      "financial":   "azsos.gov/securities",
+      "privacy":     null,
+      "employment":  "azica.gov"
+    },
+    "AR": {
+      "name": "Arkansas",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.arkansas.gov",
+      "financial":   "securities.arkansas.gov",
+      "privacy":     null,
+      "employment":  "dws.arkansas.gov"
+    },
+    "CA": {
+      "name": "California",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.ca.gov",
+      "financial":   "dfpi.ca.gov",
+      "privacy":     "cppa.ca.gov",
+      "employment":  "dir.ca.gov",
+      "_notes": "CA has dedicated privacy agency (CPPA) and CCPA/CPRA. High regulatory complexity."
+    },
+    "CO": {
+      "name": "Colorado",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "doi.colorado.gov",
+      "financial":   "dora.colorado.gov/securities",
+      "privacy":     "coag.gov",
+      "employment":  "cdle.colorado.gov",
+      "_notes": "CO has active Consumer Privacy Act (CPA)."
+    },
+    "CT": {
+      "name": "Connecticut",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "portal.ct.gov/cid",
+      "financial":   "portal.ct.gov/dob",
+      "privacy":     "portal.ct.gov/ag",
+      "employment":  "portal.ct.gov/dol",
+      "_notes": "CT has active Data Privacy Act (CTDPA)."
+    },
+    "DE": {
+      "name": "Delaware",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.delaware.gov",
+      "financial":   "banking.delaware.gov",
+      "privacy":     "doj.delaware.gov",
+      "employment":  "dol.delaware.gov",
+      "_notes": "DE enacted Delaware Personal Data Privacy Act (DPDPA)."
+    },
+    "FL": {
+      "name": "Florida",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "floir.com",
+      "financial":   "flofr.gov",
+      "privacy":     "myfloridalegal.com",
+      "employment":  "floridajobs.org",
+      "_notes": "FL has Florida Digital Bill of Rights (FDBR)."
+    },
+    "GA": {
+      "name": "Georgia",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "oci.ga.gov",
+      "financial":   "dbf.georgia.gov",
+      "privacy":     null,
+      "employment":  "dol.georgia.gov"
+    },
+    "HI": {
+      "name": "Hawaii",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "cca.hawaii.gov/ins",
+      "financial":   "cca.hawaii.gov/sec",
+      "privacy":     null,
+      "employment":  "labor.hawaii.gov"
+    },
+    "ID": {
+      "name": "Idaho",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "doi.idaho.gov",
+      "financial":   "finance.idaho.gov",
+      "privacy":     null,
+      "employment":  "labor.idaho.gov"
+    },
+    "IL": {
+      "name": "Illinois",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.illinois.gov",
+      "financial":   "idfpr.illinois.gov",
+      "privacy":     "illinoisattorneygeneral.gov",
+      "employment":  "ides.illinois.gov",
+      "_notes": "IL has Biometric Information Privacy Act (BIPA) — high enforcement risk."
+    },
+    "IN": {
+      "name": "Indiana",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "in.gov/idoi",
+      "financial":   "in.gov/sos/securities",
+      "privacy":     "in.gov/ag",
+      "employment":  "in.gov/dwd",
+      "_notes": "IN enacted Indiana Consumer Data Protection Act."
+    },
+    "IA": {
+      "name": "Iowa",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "iid.iowa.gov",
+      "financial":   "ibd.iowa.gov",
+      "privacy":     "iowaag.gov",
+      "employment":  "iwd.iowa.gov",
+      "_notes": "IA enacted Iowa Consumer Data Protection Act."
+    },
+    "KS": {
+      "name": "Kansas",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "ksinsurance.org",
+      "financial":   "ksc.ks.gov",
+      "privacy":     null,
+      "employment":  "dol.ks.gov"
+    },
+    "KY": {
+      "name": "Kentucky",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.ky.gov",
+      "financial":   "kfi.ky.gov",
+      "privacy":     "ag.ky.gov",
+      "employment":  "kylabor.ky.gov",
+      "_notes": "KY enacted Kentucky Consumer Data Protection Act (2024)."
+    },
+    "LA": {
+      "name": "Louisiana",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "ldi.la.gov",
+      "financial":   "osfi.doa.louisiana.gov",
+      "privacy":     null,
+      "employment":  "laworks.net"
+    },
+    "ME": {
+      "name": "Maine",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "maine.gov/pfr/insurance",
+      "financial":   "maine.gov/pfr/securities",
+      "privacy":     "maine.gov/ag",
+      "employment":  "maine.gov/labor"
+    },
+    "MD": {
+      "name": "Maryland",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.maryland.gov",
+      "financial":   "mdfr.maryland.gov",
+      "privacy":     "oag.state.md.us",
+      "employment":  "dllr.maryland.gov",
+      "_notes": "MD has Maryland Online Data Privacy Act (MODPA)."
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "mass.gov/orgs/division-of-insurance",
+      "financial":   "mass.gov/orgs/securities-division",
+      "privacy":     "mass.gov/ag",
+      "employment":  "mass.gov/eolwd"
+    },
+    "MI": {
+      "name": "Michigan",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "michigan.gov/difs",
+      "financial":   "michigan.gov/difs",
+      "privacy":     "michigan.gov/ag",
+      "employment":  "michigan.gov/leo"
+    },
+    "MN": {
+      "name": "Minnesota",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "mn.gov/commerce/insurance",
+      "financial":   "mn.gov/commerce/securities",
+      "privacy":     "ag.state.mn.us",
+      "employment":  "dli.mn.gov",
+      "_notes": "MN enacted Minnesota Consumer Data Privacy Act (MCDPA) effective 2025."
+    },
+    "MS": {
+      "name": "Mississippi",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "mid.ms.gov",
+      "financial":   "sos.ms.gov/securities",
+      "privacy":     null,
+      "employment":  "mdes.ms.gov"
+    },
+    "MO": {
+      "name": "Missouri",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.mo.gov",
+      "financial":   "msoap.mo.gov",
+      "privacy":     null,
+      "employment":  "labor.mo.gov"
+    },
+    "MT": {
+      "name": "Montana",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "csimt.gov",
+      "financial":   "banking.mt.gov",
+      "privacy":     "doj.mt.gov",
+      "employment":  "erd.dli.mt.gov",
+      "_notes": "MT enacted Montana Consumer Data Privacy Act (MCDPA)."
+    },
+    "NE": {
+      "name": "Nebraska",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "doi.nebraska.gov",
+      "financial":   "ndbf.nebraska.gov",
+      "privacy":     "ago.nebraska.gov",
+      "employment":  "dol.nebraska.gov",
+      "_notes": "NE enacted Nebraska Data Privacy Act (NDPA)."
+    },
+    "NV": {
+      "name": "Nevada",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "doi.nv.gov",
+      "financial":   "nvsos.gov/securities",
+      "privacy":     "ag.nv.gov",
+      "employment":  "detr.nv.gov"
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.nh.gov",
+      "financial":   "sos.nh.gov/bureau-of-securities-regulation",
+      "privacy":     "doj.nh.gov",
+      "employment":  "nh.gov/labor",
+      "_notes": "NH enacted New Hampshire Privacy Act."
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "state.nj.us/dobi",
+      "financial":   "njconsumeraffairs.gov/bos",
+      "privacy":     "njconsumeraffairs.gov",
+      "employment":  "nj.gov/labor",
+      "_notes": "NJ enacted New Jersey Data Privacy Act (NJDPA)."
+    },
+    "NM": {
+      "name": "New Mexico",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "osi.state.nm.us",
+      "financial":   "rld.nm.gov/securities",
+      "privacy":     null,
+      "employment":  "dws.state.nm.us"
+    },
+    "NY": {
+      "name": "New York",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "dfs.ny.gov",
+      "financial":   "dfs.ny.gov",
+      "privacy":     "ag.ny.gov",
+      "employment":  "labor.ny.gov",
+      "_notes": "NY DFS is highly active in fintech/insurtech. NY SHIELD Act is in effect. High regulatory complexity."
+    },
+    "NC": {
+      "name": "North Carolina",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "ncdoi.gov",
+      "financial":   "sosnc.gov/securities",
+      "privacy":     "ncdoj.gov",
+      "employment":  "des.nc.gov"
+    },
+    "ND": {
+      "name": "North Dakota",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "nd.gov/ndins",
+      "financial":   "nd.gov/securities",
+      "privacy":     null,
+      "employment":  "nd.gov/labor"
+    },
+    "OH": {
+      "name": "Ohio",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.ohio.gov",
+      "financial":   "com.ohio.gov/divisions/securities",
+      "privacy":     "ohioattorneygeneral.gov",
+      "employment":  "jfs.ohio.gov",
+      "_notes": "Home state. Monitor closely."
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "oid.ok.gov",
+      "financial":   "securities.ok.gov",
+      "privacy":     null,
+      "employment":  "oesc.state.ok.us"
+    },
+    "OR": {
+      "name": "Oregon",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.oregon.gov",
+      "financial":   "dfr.oregon.gov",
+      "privacy":     "doj.oregon.gov",
+      "employment":  "oregon.gov/boli",
+      "_notes": "OR enacted Oregon Consumer Privacy Act (OCPA)."
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.pa.gov",
+      "financial":   "psc.pa.gov",
+      "privacy":     "attorneygeneral.gov",
+      "employment":  "dli.pa.gov"
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "dbr.ri.gov",
+      "financial":   "dbr.ri.gov",
+      "privacy":     "riag.ri.gov",
+      "employment":  "dlt.ri.gov",
+      "_notes": "RI enacted Data Transparency and Privacy Protection Act (2024)."
+    },
+    "SC": {
+      "name": "South Carolina",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "doi.sc.gov",
+      "financial":   "sos.sc.gov/securities",
+      "privacy":     null,
+      "employment":  "dew.sc.gov"
+    },
+    "SD": {
+      "name": "South Dakota",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "dlr.sd.gov/insurance",
+      "financial":   "dlr.sd.gov/banking",
+      "privacy":     null,
+      "employment":  "dlr.sd.gov/labor"
+    },
+    "TN": {
+      "name": "Tennessee",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "tn.gov/commerce/insurance",
+      "financial":   "tn.gov/commerce/securities",
+      "privacy":     "tn.gov/ag",
+      "employment":  "tn.gov/workforce",
+      "_notes": "TN enacted Tennessee Information Protection Act (TIPA)."
+    },
+    "TX": {
+      "name": "Texas",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "tdi.texas.gov",
+      "financial":   "ssb.texas.gov",
+      "privacy":     "oag.texas.gov",
+      "employment":  "twc.texas.gov",
+      "_notes": "TX enacted Texas Data Privacy and Security Act (TDPSA)."
+    },
+    "UT": {
+      "name": "Utah",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.utah.gov",
+      "financial":   "dfr.utah.gov",
+      "privacy":     "attorneygeneral.utah.gov",
+      "employment":  "laborcommission.utah.gov"
+    },
+    "VT": {
+      "name": "Vermont",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "dfr.vermont.gov",
+      "financial":   "dfr.vermont.gov",
+      "privacy":     "ago.vermont.gov",
+      "employment":  "labor.vermont.gov"
+    },
+    "VA": {
+      "name": "Virginia",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "scc.virginia.gov/pages/insurance",
+      "financial":   "scc.virginia.gov/pages/Securities",
+      "privacy":     "ag.virginia.gov",
+      "employment":  "dol.virginia.gov",
+      "_notes": "VA enacted Virginia Consumer Data Protection Act (VCDPA) — one of first state privacy laws."
+    },
+    "WA": {
+      "name": "Washington",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "insurance.wa.gov",
+      "financial":   "dfi.wa.gov",
+      "privacy":     "atg.wa.gov",
+      "employment":  "lni.wa.gov",
+      "_notes": "WA has My Health MY Data Act (health data) and active privacy enforcement."
+    },
+    "WV": {
+      "name": "West Virginia",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "wvinsurance.gov",
+      "financial":   "wvauditor.gov/securities",
+      "privacy":     null,
+      "employment":  "workforce.wv.gov"
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "oci.wi.gov",
+      "financial":   "wdfi.org",
+      "privacy":     "doj.state.wi.us",
+      "employment":  "dwd.wisconsin.gov"
+    },
+    "WY": {
+      "name": "Wyoming",
+      "activated": false,
+      "activated_date": null,
+      "activated_by": [],
+      "insurance":   "doi.wyo.gov",
+      "financial":   "soswy.state.wy.us/securities",
+      "privacy":     null,
+      "employment":  "wyomingworkforce.org"
+    }
+  }
+}

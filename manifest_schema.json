@@ -1,0 +1,49 @@
+{
+  "_schema_version": "1.0",
+  "_note": "Copy this file into your project root as reg_manifest.json and fill in the fields.",
+
+  "project": {
+    "name": "YOUR_PROJECT_NAME",
+    "description": "Brief description of what this project does commercially",
+    "created_date": "YYYY-MM-DD",
+    "last_active": "YYYY-MM-DD",
+    "status": "active"
+  },
+
+  "domains": [
+    "privacy_data",
+    "ai_automation",
+    "insurance_tech",
+    "financial_services",
+    "employment_tech"
+  ],
+  "_domains_note": "Remove domains not relevant to this project. Available: privacy_data, ai_automation, insurance_tech, financial_services, employment_tech",
+
+  "states": [],
+  "_states_note": "Add state codes as strings for any state this project operates in. Example: ['OH', 'KY', 'IN']. Leave empty for federal-only scope.",
+
+  "reg_risk": {
+    "last_scored": null,
+    "P": null,
+    "V": null,
+    "C": null,
+    "level": null,
+    "notes": null
+  },
+
+  "registry": {
+    "last_checked": null,
+    "last_updated": null,
+    "next_check_due": null,
+    "pending_deltas": []
+  },
+
+  "launch": {
+    "build_complete": false,
+    "build_complete_date": null,
+    "legal_review_complete": false,
+    "legal_review_date": null,
+    "launched": false,
+    "launch_date": null
+  }
+}
