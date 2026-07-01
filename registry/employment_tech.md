@@ -1,8 +1,8 @@
 ---
 domain: Employment & Labor Technology
-version: 1.0
-last_verified: 2026-05-02
-next_check_due: 2026-06-01
+version: 1.1
+last_verified: 2026-07-01
+next_check_due: 2026-08-01
 sources: [dol.gov, eeoc.gov, federalregister.gov, ecfr.gov]
 applies_to_projects: []
 ---
@@ -39,7 +39,7 @@ Governs minimum wage, overtime, and child labor. Critical for:
 - Overtime eligibility determination
 - Record-keeping requirements
 
-**Highly relevant:** DOL issued new independent contractor classification rule (2024) making it harder to classify workers as contractors. Reverses Trump-era rule. Economic reality test with multiple factors.
+**🔴 Highly relevant — contractor rule reversal in progress:** DOL announced (Field Assistance Bulletin 2025-1, May 2025) it will **not enforce** the Biden-era 2024 independent contractor rule and has reverted to the earlier framework in investigations. A proposed rule to formally rescind and replace it (reviving the 2021 two-core-factor test: control and opportunity for profit/loss) was published Feb 27, 2026; comments closed April 28, 2026; **final rule pending**. Caution: the 2024 rule technically remains on the books, and courts and private plaintiffs may still apply their own economic-reality analyses — classification risk has NOT disappeared.
 
 ### National Labor Relations Act (NLRA)
 **Enforced by:** NLRB  
@@ -55,11 +55,14 @@ Requires 60-day notice before mass layoffs (100+ employees) or plant closings. G
 ### AI in Hiring
 **Sources:** EEOC, DOL, state laws  
 Use of AI in recruiting, screening, or hiring:
-- EEOC guidance: AI hiring tools can violate Title VII if they produce disparate impact
+- 🟡 **EEOC AI guidance removed (Jan 2025):** The EEOC's Title VII (2023) and ADA (2022) AI technical assistance documents were taken down under new leadership; DOL AI guidance similarly rolled back. **The statutes are unchanged** — disparate impact from AI tools can still violate Title VII, and private plaintiffs, state AGs, and future administrations can still enforce. Continue bias testing.
 - Employers responsible for outcomes of third-party AI hiring tools
 - ADA implicated if AI screens based on disability-correlated characteristics
 - NYC Local Law 144 (effective 2023): Requires annual bias audits for automated employment decision tools. First major law of its kind — model for other jurisdictions.
 - Illinois AI Video Interview Act: Written notice and consent required before AI analysis of video interviews. Candidates can request information about AI criteria.
+- 🔴 **Illinois HB 3773 (effective Jan 1, 2026):** Amends IL Human Rights Act — prohibits using AI that has a discriminatory effect in recruitment, hiring, promotion, discipline, discharge, or other terms of employment, and requires **notice** to employees/applicants when AI is used in such decisions. IDHR implementing rules in progress.
+- 🟡 **Colorado AI Act replaced:** original SB 24-205 employment-AI obligations never took effect; replaced May 2026 by SB 26-189 (narrower ADMT disclosure framework, effective Jan 1, 2027). See ai_automation.md.
+- 🟡 **Texas TRAIGA (effective Jan 1, 2026)** covers AI in consequential employment decisions — intent-based standard. See ai_automation.md.
 
 ### Workplace Monitoring
 Remote work and employee monitoring technology:
@@ -89,11 +92,11 @@ Remote work and employee monitoring technology:
 
 ## Emerging / Watch Areas
 
-- **Federal AI in Employment Act** — multiple bills proposed requiring disclosure and impact assessments for AI hiring tools. Not passed yet but gaining momentum.
-- **Gig worker classification** — continue to watch state-by-state adoption of reclassification rules. Federal rulemaking possible.
-- **Non-compete agreements** — FTC issued rule banning most non-competes (2024); legal challenges ongoing. Check current status before using non-competes.
+- **Federal AI employment regulation** — direction reversed: the Dec 2025 federal AI EO pushes **preemption of state AI laws** (including employment AI rules) rather than new federal requirements. State laws remain enforceable pending litigation. High volatility.
+- **Gig worker classification** — DOL final rescission/replacement rule pending (see FLSA section). State-level reclassification rules (CA AB5, NJ, NY) unaffected by the federal rollback.
+- **🔴 Non-compete agreements — federal ban is DEAD:** The FTC's 2024 non-compete rule was vacated (N.D. Tex.); the FTC dropped its appeals in September 2025 and removed the rule from the CFR effective Feb 12, 2026. **State law now governs** — and many states restrict non-competes. FTC continues case-by-case Section 5 enforcement against egregious non-compete use.
 - **Workplace AI monitoring** — NLRB and state agencies actively developing rules. High velocity sub-area.
-- **Pay transparency** — wave of state pay transparency laws expanding. Expect federal legislation within 2–3 years.
+- **Pay transparency** — state pay transparency laws continue expanding; verify per-state before posting roles.
 
 ---
 
@@ -106,7 +109,7 @@ Remote work and employee monitoring technology:
 - [ ] I-9 employment eligibility verification for all employees
 - [ ] FLSA record-keeping and overtime practices compliant
 - [ ] Employee monitoring notice where required by state
-- [ ] Non-compete agreements reviewed under current FTC rule status
+- [ ] Non-compete agreements reviewed under applicable STATE law (federal FTC ban vacated/removed)
 
 ## Key Obligations Checklist (Building Employment Tech)
 
@@ -119,5 +122,5 @@ Remote work and employee monitoring technology:
 
 ---
 
-*Last verified against: dol.gov, eeoc.gov, federalregister.gov*  
-*Next scheduled check: 2026-06-01*
+*Last verified against: dol.gov, eeoc.gov, federalregister.gov, ftc.gov (2026-07-01)*  
+*Next scheduled check: 2026-08-01*

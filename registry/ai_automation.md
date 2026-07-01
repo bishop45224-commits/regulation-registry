@@ -1,8 +1,8 @@
 ---
 domain: AI & Automation
-version: 1.0
-last_verified: 2026-05-02
-next_check_due: 2026-06-01
+version: 1.1
+last_verified: 2026-07-01
+next_check_due: 2026-08-01
 sources: [nist.gov, ftc.gov, federalregister.gov, congress.gov]
 applies_to_projects: []
 ---
@@ -34,13 +34,15 @@ The FTC has issued multiple guidance documents asserting authority over AI under
 
 **Status:** Guidance only — but FTC has brought enforcement actions. Treat as binding in practice.
 
-### Executive Order on AI (Oct 2023) — Ongoing Implementation
-Required federal agencies to develop AI standards and guidance. Most relevant outputs:
-- NIST AI Safety Institute guidance
-- OMB guidance on federal AI procurement (signals what "responsible AI" means to government)
-- Sector-specific guidance from financial regulators
+### Federal Executive Orders on AI — 🔴 Major Reversal
+The Oct 2023 Biden AI EO was **rescinded in January 2025** (EO 14179, "Removing Barriers to American Leadership in AI"). Federal posture is now deregulatory.
 
-**Status:** Implementation ongoing. Watch for agency-specific rules flowing from this.
+**🔴 December 11, 2025 EO — "Ensuring a National Policy Framework for Artificial Intelligence":** Directs a whole-of-government effort to **preempt state AI laws**:
+- DOJ **AI Litigation Task Force** created to challenge state AI laws in court
+- FTC directed to issue a policy statement (due ~March 2026) on when state laws requiring alterations to truthful AI model outputs are preempted by the FTC Act
+- Commerce directed to evaluate conditioning federal (e.g., broadband) funding on states not enacting "onerous" AI laws
+
+**Practical status:** An EO cannot itself overturn state law — state AI laws **remain enforceable** unless Congress or the courts act. Continue complying with applicable state laws, but expect litigation and possible federal preemption legislation. Highest-volatility item in this registry.
 
 ### Algorithmic Accountability
 No federal law yet, but multiple bills introduced. The Algorithmic Accountability Act (various versions) would require impact assessments for automated decision systems. Not passed as of this writing but has significant momentum.
@@ -60,19 +62,25 @@ Using AI/ML in insurance underwriting, pricing, or claims is under active scruti
 ### Employment AI
 **Sources:** EEOC, DOL  
 AI used in hiring, promotion, or workforce management:
-- EEOC guidance: AI tools that produce disparate impact on protected classes may violate Title VII
+- 🟡 EEOC's AI technical assistance documents (Title VII 2023, ADA 2022) were **removed from eeoc.gov in January 2025**. The underlying statutory obligations are unchanged — disparate impact from AI tools can still violate Title VII/ADA, and private plaintiffs and states can still sue.
 - NYC Local Law 144: Requires bias audits for automated employment decision tools (model for other jurisdictions)
 - Illinois AI Video Interview Act: Requires notice and consent for AI analysis of video interviews
+- 🔴 Illinois HB 3773 (amends IL Human Rights Act): **effective January 1, 2026** — prohibits AI use with discriminatory effect in employment decisions and requires notice to employees/applicants when AI is used. IDHR implementing rules in progress (draft notice rules published).
 
 ---
 
 ## State AI Laws — Active
 
-### Colorado
-SB 205 (AI systems in consequential decisions affecting consumers) — signed 2024. Applies to developers and deployers of high-risk AI systems. Requires disclosure, impact assessments, and mechanisms for consumers to appeal automated decisions.
+### Colorado — 🔴 REPLACED (May 2026)
+Original SB 24-205 (high-risk AI, duty of care, impact assessments) **never took effect**. Timeline: delayed from Feb 1, 2026 to June 30, 2026 (SB 25B-004, Aug 2025), then **replaced by SB 26-189 (signed May 14, 2026)** — significantly scaled back. The new framework drops the algorithmic-discrimination duty of care, deployer risk-management programs, and impact assessments, in favor of **disclosure/transparency requirements for automated decision-making technologies (ADMT)**. **Effective January 1, 2027.** Re-verify obligations against SB 26-189, not SB 24-205.
+
+### Texas — 🔴 TRAIGA (effective January 1, 2026)
+Texas Responsible AI Governance Act (signed June 2025). Applies to anyone developing/deploying AI in Texas or offering products used by Texas residents. **Intent-based liability** (not risk-tiered): prohibits AI intentionally designed to manipulate behavior, unlawfully discriminate (disparate impact alone is insufficient), infringe constitutional rights, or produce unlawful explicit content. **Safe harbor** for substantial compliance with NIST AI RMF. AG exclusive enforcement (no private right of action); penalties $10K–$200K per violation plus daily penalties; 60-day cure period. Includes regulatory sandbox.
 
 ### California
-Multiple AI-related bills active. CPPA has issued draft rules on automated decision-making technology. Expect formal rules 2025–2026.
+- **🔴 SB 53 — Transparency in Frontier AI Act (effective January 1, 2026):** First state frontier-model safety law. Applies to developers of models trained with >10^26 FLOPs; extra obligations for developers with >$500M revenue. Requires published safety frameworks, transparency reports, and incident reporting.
+- **🔴 CPPA ADMT regulations finalized (Sept 2025), effective January 1, 2026:** notice, opt-out, and access rights for ADMT used in significant decisions; full ADMT compliance by April 1, 2027 (see privacy_data.md).
+- SB 243 (companion chatbots): disclosure and minor-protection requirements — verify current status if building conversational AI.
 
 ### Illinois
 BIPA (biometric data) intersects heavily with AI. Any AI system analyzing faces, voices, or other biometrics triggers BIPA requirements.
@@ -93,7 +101,8 @@ Privacy laws include provisions on profiling and automated decisions — opt-out
 ### Automated Messaging / Communications
 - Telephone Consumer Protection Act (TCPA): Strict rules on automated calls and texts. Requires prior express written consent for marketing. Significant litigation risk.
 - CAN-SPAM: Applies to commercial email. Opt-out mechanisms required.
-- FCC has tightened TCPA rules — one-to-one consent requirement in effect 2025.
+- 🔴 **CORRECTION — one-to-one consent rule is DEAD:** The Eleventh Circuit vacated the FCC's one-to-one consent rule (*Insurance Marketing Coalition v. FCC*, Jan 24, 2025) and the FCC formally repealed the language. Lead-gen consent standard reverts to pre-2023 status quo: prior express written consent, no one-to-one constraint.
+- 🟡 **Consent revocation rules:** Most of the FCC's 2024 revocation order took effect April 11, 2025 (honor reasonable opt-out methods, 10-business-day processing window, expanded opt-out keywords). The "revoke-all" provision (one revocation cuts off all unrelated calls/texts) has been **delayed to January 31, 2027** and may be modified.
 
 ### Bot Disclosure
 California B.O.T. Disclosure Act: Bots communicating with Californians in commerce must disclose they are not human. Several other states have similar or pending laws.
@@ -102,10 +111,12 @@ California B.O.T. Disclosure Act: Bots communicating with Californians in commer
 
 ## Emerging / Watch Areas
 
-- **Federal AI legislation** — multiple bills active in Congress. First federal AI law likely within 1–2 years.
-- **EU AI Act** — if any commercial activity touches EU users, the EU AI Act applies. Tiered risk system with significant obligations for high-risk AI systems.
+- **🔴 Federal preemption fight** — the Dec 2025 EO, DOJ AI Litigation Task Force, and pending FTC preemption policy statement are the dominant storyline. Congress may attach AI preemption to must-pass legislation. State compliance obligations could shift quickly.
+- **Federal AI legislation** — multiple bills active in Congress; preemption-focused proposals now most likely vehicle.
+- **EU AI Act** — if any commercial activity touches EU users, the EU AI Act applies. Tiered risk system; high-risk obligations phasing in through 2026–2027.
 - **Liability for AI outputs** — courts and legislatures actively working on questions of who bears liability for harmful AI-generated content or decisions.
-- **AI in insurance** — NAIC model bulletin adoption by states is accelerating. Expect formal state rules on algorithmic underwriting within 2 years.
+- **AI in insurance** — NAIC model bulletin now adopted by 24 states + DC (see insurance_tech.md).
+- **State session wave** — more state AI bills passing despite federal pressure; re-check state list monthly.
 
 ---
 
@@ -121,5 +132,5 @@ California B.O.T. Disclosure Act: Bots communicating with Californians in commer
 
 ---
 
-*Last verified against: nist.gov, ftc.gov, federalregister.gov*  
-*Next scheduled check: 2026-06-01*
+*Last verified against: nist.gov, ftc.gov, federalregister.gov, whitehouse.gov, leg.colorado.gov (2026-07-01)*  
+*Next scheduled check: 2026-08-01*

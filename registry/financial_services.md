@@ -1,8 +1,8 @@
 ---
 domain: Financial Services
-version: 1.0
-last_verified: 2026-05-02
-next_check_due: 2026-06-01
+version: 1.1
+last_verified: 2026-07-01
+next_check_due: 2026-08-01
 sources: [cftc.gov, sec.gov, federalregister.gov, ecfr.gov, consumerfinance.gov]
 applies_to_projects: []
 ---
@@ -69,10 +69,10 @@ Governs use of consumer reports. Applies when using credit reports, background c
 **Enforced by:** FinCEN  
 Requires financial institutions to maintain AML programs, file Suspicious Activity Reports (SARs), and comply with Customer Due Diligence (CDD) rules. Threshold for what constitutes a "financial institution" is broad.
 
-### FinCEN / Beneficial Ownership Rule (2024)
-Corporate Transparency Act requires most small businesses to report beneficial ownership information to FinCEN. Applies to most LLCs and corporations.
+### FinCEN / Beneficial Ownership Rule — 🔴 DOMESTIC COMPANIES NOW EXEMPT
+FinCEN's interim final rule (March 26, 2025) removed BOI reporting requirements for **all U.S.-formed entities and U.S. persons**. "Reporting company" now means only entities **formed under foreign law** that registered to do business in the U.S. — and even those need not report U.S.-person beneficial owners. The Eleventh Circuit has since upheld the CTA's constitutionality, but the domestic exemption stands under the FinCEN rule.
 
-**Status:** Implementation underway. Deadlines have shifted — verify current status.
+**Status:** U.S. LLCs/corporations have no federal BOI filing obligation. Watch: rule could be revised; some **states** (e.g., New York's LLC Transparency Act) have their own disclosure regimes.
 
 ---
 
@@ -84,26 +84,26 @@ Corporate Transparency Act requires most small businesses to report beneficial o
 - Real-time payments: FedNow and RTP network participation has compliance requirements
 
 ### Digital Assets / Cryptocurrency
-- SEC and CFTC dispute jurisdiction over various digital assets
-- Bitcoin: CFTC commodity
-- Most tokens: SEC treats as securities (Howey test)
-- Stablecoins: Active federal legislation pending
-- If any product involves digital assets, specialized legal review essential
+- **🔴 GENIUS Act (signed July 18, 2025):** First federal stablecoin law. Only "permitted issuers" (insured-depository subsidiaries, federal-qualified nonbanks, or state-qualified issuers) may issue payment stablecoins for U.S. persons. 1:1 liquid reserves and monthly public reserve disclosures required. **Implementing rules from OCC/FDIC/NCUA/Treasury/FinCEN/OFAC are due by July 18, 2026 — imminent.** If any product touches stablecoins, track these rules directly.
+- **🟡 CLARITY Act (market structure):** Passed House 2025; Senate Banking Committee advanced it May 14, 2026; now on Senate calendar. Would give CFTC exclusive jurisdiction over "digital commodity" spot markets while SEC keeps investment-contract assets. Passage would substantially resolve SEC/CFTC jurisdictional disputes.
+- SEC enforcement posture toward digital assets has softened under current leadership; Howey analysis still governs whether a token is a security.
+- If any product involves digital assets, specialized legal review essential.
 
 ### Buy Now Pay Later (BNPL)
-CFPB has issued interpretive rule applying credit card rules to BNPL products. Rapidly evolving area.
+🔴 CFPB **revoked** its 2024 interpretive rule treating BNPL like credit cards (2025) and stated it will not prioritize BNPL enforcement. Regulation Z credit-card protections no longer imputed to BNPL at the federal level; state law and general UDAAP still apply.
 
 ### Open Banking / Data Sharing
-CFPB Section 1033 rule (finalized 2024) requires financial institutions to share consumer data upon consumer request. Creates new obligations and opportunities for fintech.
+🔴 CFPB Section 1033 rule (finalized Oct 2024) is **enjoined** — E.D. Kentucky preliminary injunction bars enforcement while CFPB rewrites the rule (ANPR issued Aug 2025). The first compliance date (April 1, 2026) passed without effect. Rule is enjoined, not vacated; a revised rule is expected. Don't build compliance or product plans on the 2024 rule's specifics.
 
 ---
 
 ## Emerging / Watch Areas
 
-- **Federal digital asset legislation** — active in Congress, likely to pass within 1–2 years. Will significantly reshape crypto regulation.
-- **CFPB UDAAP enforcement** — CFPB has expanded UDAAP to cover discrimination, not just traditional deception. Significant enforcement risk for algorithmic products.
-- **AI in financial decisions** — CFPB and OCC issuing guidance on model risk management and algorithmic fairness.
-- **Open banking implementation** — Section 1033 creates both compliance obligations and potential business opportunities.
+- **🔴 GENIUS Act implementing rules** — statutory deadline July 18, 2026. Comment periods closed June 2026; final rules imminent.
+- **🟡 CLARITY Act** — on Senate calendar as of June 2026. Passage would reshape digital asset market structure.
+- **🟡 CFPB posture shift** — CFPB withdrew 67 guidance documents (May 2025), rescinded the BNPL rule, and scaled back enforcement broadly. The earlier UDAAP-as-discrimination expansion is no longer active policy. Caution: statutes are unchanged — posture can reverse with the next administration, and state AGs/state UDAP laws remain active.
+- **AI in financial decisions** — federal guidance rolled back, but ECOA/FCRA adverse-action requirements still fully apply to algorithmic underwriting.
+- **Open banking rewrite** — revised Section 1033 rule expected; both compliance obligations and data-access opportunities in flux.
 
 ---
 
@@ -114,11 +114,11 @@ CFPB Section 1033 rule (finalized 2024) requires financial institutions to share
 - [ ] FCRA compliance for any use of consumer report data
 - [ ] Adverse action notice process in place for automated decisions
 - [ ] BSA/AML program if financial institution definition applies
-- [ ] Beneficial ownership reporting to FinCEN (Corporate Transparency Act)
+- [ ] Beneficial ownership reporting — U.S.-formed entities currently EXEMPT (verify state-level requirements, e.g., NY)
 - [ ] CFPB UDAAP standards applied to all consumer-facing products
 - [ ] State money transmission license if moving consumer funds
 
 ---
 
-*Last verified against: cftc.gov, sec.gov, consumerfinance.gov, federalregister.gov*  
-*Next scheduled check: 2026-06-01*
+*Last verified against: cftc.gov, sec.gov, consumerfinance.gov, federalregister.gov, fincen.gov, occ.gov, congress.gov (2026-07-01)*  
+*Next scheduled check: 2026-08-01*

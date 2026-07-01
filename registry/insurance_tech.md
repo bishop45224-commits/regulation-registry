@@ -1,8 +1,8 @@
 ---
 domain: Insurance Technology
-version: 1.0
-last_verified: 2026-05-02
-next_check_due: 2026-06-01
+version: 1.1
+last_verified: 2026-07-01
+next_check_due: 2026-08-01
 sources: [naic.org, federalregister.gov, ecfr.gov]
 applies_to_projects: []
 quasi_governmental_source: true
@@ -47,9 +47,9 @@ Provides guidance on insurer use of AI/ML in underwriting, pricing, and claims. 
 - Must be able to explain decisions made by AI/ML models
 - Prohibition on proxy discrimination — using variables that are proxies for protected characteristics
 - Documentation requirements for AI model governance
-- States actively adopting versions: CO, CT, IL, MN are leaders
+- 🟡 **Adoption update (2026): 24 states + DC** have adopted the bulletin or substantially similar guidance, with ~4 more states issuing related regulations/guidance. Over half the country now has AI-in-insurance expectations in place.
 
-**Status:** Rapidly being adopted. Treat as likely binding within 2–3 years in most states.
+**Status:** Broadly adopted. Treat as effectively binding for multi-state operations. Note: the December 2025 federal AI executive order's state-preemption push creates some uncertainty for state AI rules generally, but insurance regulation's state-based structure (McCarran-Ferguson) makes insurance AI bulletins comparatively insulated — continue complying.
 
 ### NAIC Producer Licensing Model Act
 Governs licensing requirements for insurance producers (agents/brokers) across states. Key points:
@@ -125,7 +125,8 @@ Using third-party data sources (credit, public records, IoT, telematics) in unde
 
 ## Emerging / Watch Areas
 
-- **State AI bulletin adoption** — NAIC AI bulletin being adopted state by state. Expect 40+ states to have some form within 2 years.
+- **State AI bulletin adoption** — 24 states + DC as of early 2026; trajectory toward 40+ continues. NAIC is also intensifying AI oversight work (model governance, health-insurer AI use).
+- **🟡 GLBA/Safeguards enforcement** — FTC Safeguards Rule breach reporting (30-day notice for 500+ consumer breaches) has been live since May 2024 and applies to insurance agencies as financial institutions; FTC issued updated FAQ guidance June 2025. See privacy_data.md GLBA section.
 - **Embedded insurance** — new distribution model drawing regulatory attention. Affinity and embedded products face additional disclosure scrutiny.
 - **Parametric and usage-based insurance** — new product structures attracting regulatory examination of rating and underwriting rules.
 - **Climate risk disclosure** — NAIC and state DOIs increasingly requiring insurer climate risk disclosures.
@@ -146,5 +147,5 @@ Using third-party data sources (credit, public records, IoT, telematics) in unde
 
 ---
 
-*Last verified against: naic.org, federalregister.gov*  
-*Next scheduled check: 2026-06-01*
+*Last verified against: naic.org, federalregister.gov, ftc.gov (2026-07-01)*  
+*Next scheduled check: 2026-08-01*
