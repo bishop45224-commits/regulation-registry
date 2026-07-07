@@ -1,7 +1,7 @@
 ---
 domain: AI & Automation
-version: 1.1
-last_verified: 2026-07-01
+version: 1.2
+last_verified: 2026-07-07
 next_check_due: 2026-08-01
 sources: [nist.gov, ftc.gov, federalregister.gov, congress.gov]
 applies_to_projects: []
@@ -83,7 +83,9 @@ Texas Responsible AI Governance Act (signed June 2025). Applies to anyone develo
 - SB 243 (companion chatbots): disclosure and minor-protection requirements — verify current status if building conversational AI.
 
 ### Illinois
-BIPA (biometric data) intersects heavily with AI. Any AI system analyzing faces, voices, or other biometrics triggers BIPA requirements.
+- BIPA (biometric data) intersects heavily with AI. Any AI system analyzing faces, voices, or other biometrics triggers BIPA requirements.
+- HB 3773 (AI in employment decisions) effective January 1, 2026 — see Employment AI section.
+- **🔴 Artificial Intelligence Safety Measures Act (SB 315) — signed July 6, 2026, effective January 1, 2027:** Frontier-model safety law, currently the nation's most stringent. Applies to "large frontier developers" (≥$500M annual revenue). Requires published safety plans addressing "catastrophic risk" (defined to include AI materially contributing to death/serious injury of 50+ people or expert-level assistance creating CBRN weapons), **first-in-nation annual independent third-party audits**, critical-safety-incident reporting to the state within 72 hours (24 hours if imminent risk of death/serious injury), and whistleblower protections. Fines up to $3M per violation. Compare CA SB 53 (transparency-only, no audit mandate). Note: prime target for the federal preemption fight — watch DOJ AI Litigation Task Force response.
 
 ### Texas, Virginia, Connecticut, Montana
 Privacy laws include provisions on profiling and automated decisions — opt-out rights required.
@@ -132,5 +134,5 @@ California B.O.T. Disclosure Act: Bots communicating with Californians in commer
 
 ---
 
-*Last verified against: nist.gov, ftc.gov, federalregister.gov, whitehouse.gov, leg.colorado.gov (2026-07-01)*  
+*Last verified against: nist.gov, ftc.gov, federalregister.gov, whitehouse.gov, leg.colorado.gov, ilga.gov (2026-07-07)*  
 *Next scheduled check: 2026-08-01*
