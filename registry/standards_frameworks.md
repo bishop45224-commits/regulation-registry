@@ -1,8 +1,8 @@
 ---
 domain: Security & Assurance Frameworks (Non-Regulatory)
-version: 1.0
-last_verified: 2026-07-07
-next_check_due: 2026-08-01
+version: 1.1
+last_verified: 2026-11-16
+next_check_due: 2026-12-01
 sources: [nist.gov, ftc.gov, naic.org]
 non_regulatory: true
 applies_to_projects: []
@@ -63,7 +63,8 @@ Voluntary; not certifiable — but the most legally significant framework in thi
 | ISO 42001 / NIST AI RMF | TRAIGA safe harbor; NAIC AI bulletin governance; CO SB 26-189; CPPA ADMT risk assessments |
 | SOC 1 Type 2 | Customers' SOX/financial-audit requirements (contractual) |
 | NIST CSF 2.0 | Underlying structure for all of the above |
-| Independent AI safety audits | Illinois SB 315 (frontier developers only, eff. 2027-01-01) — first law converting third-party AI audits from voluntary to mandatory |
+| Independent AI safety audits / published AI frameworks | Illinois SB 315 (frontier developers, eff. 2027-01-01) — first law converting third-party AI audits from voluntary to mandatory; NY RAISE Act and CA SB 53 require published "frontier AI frameworks" (see ai_automation.md) |
+| NIST CSF-aligned written security program | Ohio Data Protection Act (ORC 1354) safe harbor — affirmative defense to breach tort claims (see privacy_data.md) |
 
 ---
 

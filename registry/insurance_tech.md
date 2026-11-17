@@ -1,8 +1,8 @@
 ---
 domain: Insurance Technology
-version: 1.1
-last_verified: 2026-07-01
-next_check_due: 2026-08-01
+version: 1.2
+last_verified: 2026-11-16
+next_check_due: 2026-12-01
 sources: [naic.org, federalregister.gov, ecfr.gov]
 applies_to_projects: []
 quasi_governmental_source: true
@@ -47,7 +47,7 @@ Provides guidance on insurer use of AI/ML in underwriting, pricing, and claims. 
 - Must be able to explain decisions made by AI/ML models
 - Prohibition on proxy discrimination — using variables that are proxies for protected characteristics
 - Documentation requirements for AI model governance
-- 🟡 **Adoption update (2026): 24 states + DC** have adopted the bulletin or substantially similar guidance, with ~4 more states issuing related regulations/guidance. Over half the country now has AI-in-insurance expectations in place.
+- 🟡 **Adoption update (Nov 2026): ~25 states** have formally adopted the bulletin (plus DC), with ~8 more in progress (July 2026 secondary count; NAIC's own tracker last dated May 1, 2026 — verify against naic.org map). Over half the country now has AI-in-insurance expectations in place; NAIC continues intensifying AI oversight work, including health-insurer AI use.
 
 **Status:** Broadly adopted. Treat as effectively binding for multi-state operations. Note: the December 2025 federal AI executive order's state-preemption push creates some uncertainty for state AI rules generally, but insurance regulation's state-based structure (McCarran-Ferguson) makes insurance AI bulletins comparatively insulated — continue complying.
 
@@ -147,5 +147,5 @@ Using third-party data sources (credit, public records, IoT, telematics) in unde
 
 ---
 
-*Last verified against: naic.org, federalregister.gov, ftc.gov (2026-07-01)*  
-*Next scheduled check: 2026-08-01*
+*Last verified against: naic.org, federalregister.gov, ftc.gov (2026-11-16; adoption count via secondary source)*  
+*Next scheduled check: 2026-12-01*

@@ -1,8 +1,8 @@
 ---
 domain: Financial Services
-version: 1.1
-last_verified: 2026-07-01
-next_check_due: 2026-08-01
+version: 1.2
+last_verified: 2026-11-16
+next_check_due: 2026-12-01
 sources: [cftc.gov, sec.gov, federalregister.gov, ecfr.gov, consumerfinance.gov]
 applies_to_projects: []
 ---
@@ -84,8 +84,8 @@ FinCEN's interim final rule (March 26, 2025) removed BOI reporting requirements 
 - Real-time payments: FedNow and RTP network participation has compliance requirements
 
 ### Digital Assets / Cryptocurrency
-- **🔴 GENIUS Act (signed July 18, 2025):** First federal stablecoin law. Only "permitted issuers" (insured-depository subsidiaries, federal-qualified nonbanks, or state-qualified issuers) may issue payment stablecoins for U.S. persons. 1:1 liquid reserves and monthly public reserve disclosures required. **Implementing rules from OCC/FDIC/NCUA/Treasury/FinCEN/OFAC are due by July 18, 2026 — imminent.** If any product touches stablecoins, track these rules directly.
-- **🟡 CLARITY Act (market structure):** Passed House 2025; Senate Banking Committee advanced it May 14, 2026; now on Senate calendar. Would give CFTC exclusive jurisdiction over "digital commodity" spot markets while SEC keeps investment-contract assets. Passage would substantially resolve SEC/CFTC jurisdictional disputes.
+- **🔴 GENIUS Act (signed July 18, 2025) — implementation update (Nov 2026):** First federal stablecoin law. Only "permitted issuers" (insured-depository subsidiaries, federal-qualified nonbanks, or state-qualified issuers) may issue payment stablecoins for U.S. persons; 1:1 liquid reserves and monthly public reserve disclosures. **OCC final rule adopted October 21, 2026 (Bulletin 2026-50), effective January 18, 2027** — the first federal rulebook for bank and nonbank issuers; application window not yet announced. Treasury substantial-similarity principles and FinCEN/OFAC AML-sanctions rules were proposed April 2026 but **not final as of 2026-11-16**; Fed and FDIC proposals also pending. The July 18, 2026 statutory deadline was only partially met.
+- **🔴 CLARITY Act (market structure) — FAILED:** House-passed bill died in the Senate — cloture on the motion to proceed failed **49–50 on September 15, 2026**; not on the announced lame-duck schedule as of 2026-11-16, and control of the next Congress reportedly shifts. SEC/CFTC jurisdictional ambiguity persists; Howey analysis still governs.
 - SEC enforcement posture toward digital assets has softened under current leadership; Howey analysis still governs whether a token is a security.
 - If any product involves digital assets, specialized legal review essential.
 
@@ -93,14 +93,14 @@ FinCEN's interim final rule (March 26, 2025) removed BOI reporting requirements 
 🔴 CFPB **revoked** its 2024 interpretive rule treating BNPL like credit cards (2025) and stated it will not prioritize BNPL enforcement. Regulation Z credit-card protections no longer imputed to BNPL at the federal level; state law and general UDAAP still apply.
 
 ### Open Banking / Data Sharing
-🔴 CFPB Section 1033 rule (finalized Oct 2024) is **enjoined** — E.D. Kentucky preliminary injunction bars enforcement while CFPB rewrites the rule (ANPR issued Aug 2025). The first compliance date (April 1, 2026) passed without effect. Rule is enjoined, not vacated; a revised rule is expected. Don't build compliance or product plans on the 2024 rule's specifics.
+🔴 CFPB Section 1033 rule (finalized Oct 2024) is **enjoined** — E.D. Kentucky preliminary injunction bars enforcement while CFPB rewrites the rule. The first compliance date (April 1, 2026) passed without effect. **Update (Nov 2026):** CFPB sent a new 1033 proposal to OIRA in **August 2026**; a revised proposed rule is expected imminently (fee-for-data-access is the central question). Don't build compliance or product plans on the 2024 rule's specifics.
 
 ---
 
 ## Emerging / Watch Areas
 
-- **🔴 GENIUS Act implementing rules** — statutory deadline July 18, 2026. Comment periods closed June 2026; final rules imminent.
-- **🟡 CLARITY Act** — on Senate calendar as of June 2026. Passage would reshape digital asset market structure.
+- **🔴 GENIUS Act implementing rules** — OCC final (effective Jan 18, 2027); Treasury/FinCEN/OFAC/Fed/FDIC still pending. Watch for application-window announcements.
+- **🟡 Digital asset market structure** — CLARITY dead this Congress (Sept 2026 cloture failure); expect a reshaped debate under the incoming Congress.
 - **🟡 CFPB posture shift** — CFPB withdrew 67 guidance documents (May 2025), rescinded the BNPL rule, and scaled back enforcement broadly. The earlier UDAAP-as-discrimination expansion is no longer active policy. Caution: statutes are unchanged — posture can reverse with the next administration, and state AGs/state UDAP laws remain active.
 - **AI in financial decisions** — federal guidance rolled back, but ECOA/FCRA adverse-action requirements still fully apply to algorithmic underwriting.
 - **Open banking rewrite** — revised Section 1033 rule expected; both compliance obligations and data-access opportunities in flux.
@@ -120,5 +120,5 @@ FinCEN's interim final rule (March 26, 2025) removed BOI reporting requirements 
 
 ---
 
-*Last verified against: cftc.gov, sec.gov, consumerfinance.gov, federalregister.gov, fincen.gov, occ.gov, congress.gov (2026-07-01)*  
-*Next scheduled check: 2026-08-01*
+*Last verified against: cftc.gov, sec.gov, consumerfinance.gov, federalregister.gov, fincen.gov, occ.gov, congress.gov (2026-11-16)*  
+*Next scheduled check: 2026-12-01*

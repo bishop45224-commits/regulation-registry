@@ -1,8 +1,8 @@
 ---
 domain: Employment & Labor Technology
-version: 1.1
-last_verified: 2026-07-01
-next_check_due: 2026-08-01
+version: 1.2
+last_verified: 2026-11-16
+next_check_due: 2026-12-01
 sources: [dol.gov, eeoc.gov, federalregister.gov, ecfr.gov]
 applies_to_projects: []
 ---
@@ -39,7 +39,7 @@ Governs minimum wage, overtime, and child labor. Critical for:
 - Overtime eligibility determination
 - Record-keeping requirements
 
-**🔴 Highly relevant — contractor rule reversal in progress:** DOL announced (Field Assistance Bulletin 2025-1, May 2025) it will **not enforce** the Biden-era 2024 independent contractor rule and has reverted to the earlier framework in investigations. A proposed rule to formally rescind and replace it (reviving the 2021 two-core-factor test: control and opportunity for profit/loss) was published Feb 27, 2026; comments closed April 28, 2026; **final rule pending**. Caution: the 2024 rule technically remains on the books, and courts and private plaintiffs may still apply their own economic-reality analyses — classification risk has NOT disappeared.
+**🔴 Highly relevant — contractor rule reversal in progress:** DOL announced (Field Assistance Bulletin 2025-1, May 2025) it will **not enforce** the Biden-era 2024 independent contractor rule and has reverted to the earlier framework in investigations. A proposed rule to formally rescind and replace it (reviving the 2021 two-core-factor test: control and opportunity for profit/loss) was published Feb 27, 2026 (91 FR 9932, RIN 1235-AA46); comments closed April 28, 2026; **still no final rule as of 2026-11-16** — the 2024 rule remains codified at 29 CFR 795 but unenforced by DOL. Caution: courts and private plaintiffs may still apply their own economic-reality analyses — classification risk has NOT disappeared.
 
 ### National Labor Relations Act (NLRA)
 **Enforced by:** NLRB  
@@ -63,6 +63,7 @@ Use of AI in recruiting, screening, or hiring:
 - 🔴 **Illinois HB 3773 (effective Jan 1, 2026):** Amends IL Human Rights Act — prohibits using AI that has a discriminatory effect in recruitment, hiring, promotion, discipline, discharge, or other terms of employment, and requires **notice** to employees/applicants when AI is used in such decisions. IDHR implementing rules in progress.
 - 🟡 **Colorado AI Act replaced:** original SB 24-205 employment-AI obligations never took effect; replaced May 2026 by SB 26-189 (narrower ADMT disclosure framework, effective Jan 1, 2027). See ai_automation.md.
 - 🟡 **Texas TRAIGA (effective Jan 1, 2026)** covers AI in consequential employment decisions — intent-based standard. See ai_automation.md.
+- 🟡 **California AB 1883 (effective Jan 1, 2027):** bars employers from using AI workplace tools to infer employees' emotional states or collect neural data — first law of its kind; verify enacted text.
 
 ### Workplace Monitoring
 Remote work and employee monitoring technology:
@@ -122,5 +123,5 @@ Remote work and employee monitoring technology:
 
 ---
 
-*Last verified against: dol.gov, eeoc.gov, federalregister.gov, ftc.gov (2026-07-01)*  
-*Next scheduled check: 2026-08-01*
+*Last verified against: dol.gov, eeoc.gov, federalregister.gov, ftc.gov (2026-11-16)*  
+*Next scheduled check: 2026-12-01*

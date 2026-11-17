@@ -1,8 +1,8 @@
 ---
 domain: AI & Automation
-version: 1.2
-last_verified: 2026-07-07
-next_check_due: 2026-08-01
+version: 1.3
+last_verified: 2026-11-16
+next_check_due: 2026-12-01
 sources: [nist.gov, ftc.gov, federalregister.gov, congress.gov]
 applies_to_projects: []
 ---
@@ -39,10 +39,12 @@ The Oct 2023 Biden AI EO was **rescinded in January 2025** (EO 14179, "Removing 
 
 **🔴 December 11, 2025 EO — "Ensuring a National Policy Framework for Artificial Intelligence":** Directs a whole-of-government effort to **preempt state AI laws**:
 - DOJ **AI Litigation Task Force** created to challenge state AI laws in court
-- FTC directed to issue a policy statement (due ~March 2026) on when state laws requiring alterations to truthful AI model outputs are preempted by the FTC Act
+- FTC directed to issue a policy statement on when state laws requiring alterations to truthful AI model outputs are preempted by the FTC Act
 - Commerce directed to evaluate conditioning federal (e.g., broadband) funding on states not enacting "onerous" AI laws
 
-**Practical status:** An EO cannot itself overturn state law — state AI laws **remain enforceable** unless Congress or the courts act. Continue complying with applicable state laws, but expect litigation and possible federal preemption legislation. Highest-volatility item in this registry.
+**🟡 FTC proposed policy statement — "Suppression of Accuracy in Artificial Intelligence Systems" (July 2026):** Published for comment July 7, 2026 (docket FTC-2026-0859; comments closed July 31). Theory: undisclosed ideological steering of AI outputs can be a deceptive omission under Section 5, and state laws that push companies toward such alteration (Colorado's revised AI act named) may be **impliedly preempted**. **Still proposed, not final, as of 2026-11-16**; the implied-preemption theory is untested in court and drew substantial pushback in comments.
+
+**Practical status:** An EO cannot itself overturn state law — state AI laws **remain enforceable** unless Congress or the courts act. No DOJ AI Litigation Task Force suit against a state had been found as of 2026-11-16. Continue complying with applicable state laws, but expect litigation and possible federal preemption legislation. Highest-volatility item in this registry.
 
 ### Algorithmic Accountability
 No federal law yet, but multiple bills introduced. The Algorithmic Accountability Act (various versions) would require impact assessments for automated decision systems. Not passed as of this writing but has significant momentum.
@@ -80,12 +82,22 @@ Texas Responsible AI Governance Act (signed June 2025). Applies to anyone develo
 ### California
 - **🔴 SB 53 — Transparency in Frontier AI Act (effective January 1, 2026):** First state frontier-model safety law. Applies to developers of models trained with >10^26 FLOPs; extra obligations for developers with >$500M revenue. Requires published safety frameworks, transparency reports, and incident reporting.
 - **🔴 CPPA ADMT regulations finalized (Sept 2025), effective January 1, 2026:** notice, opt-out, and access rights for ADMT used in significant decisions; full ADMT compliance by April 1, 2027 (see privacy_data.md).
-- SB 243 (companion chatbots): disclosure and minor-protection requirements — verify current status if building conversational AI.
+- SB 243 (companion chatbots): disclosure and minor-protection requirements for bots that meet social needs and sustain a relationship; excludes operational bots (a scheduler/task assistant that stays in scope is outside it) — verify current status if building conversational AI.
 
 ### Illinois
 - BIPA (biometric data) intersects heavily with AI. Any AI system analyzing faces, voices, or other biometrics triggers BIPA requirements.
 - HB 3773 (AI in employment decisions) effective January 1, 2026 — see Employment AI section.
 - **🔴 Artificial Intelligence Safety Measures Act (SB 315) — signed July 6, 2026, effective January 1, 2027:** Frontier-model safety law, currently the nation's most stringent. Applies to "large frontier developers" (≥$500M annual revenue). Requires published safety plans addressing "catastrophic risk" (defined to include AI materially contributing to death/serious injury of 50+ people or expert-level assistance creating CBRN weapons), **first-in-nation annual independent third-party audits**, critical-safety-incident reporting to the state within 72 hours (24 hours if imminent risk of death/serious injury), and whistleblower protections. Fines up to $3M per violation. Compare CA SB 53 (transparency-only, no audit mandate). Note: prime target for the federal preemption fight — watch DOJ AI Litigation Task Force response.
+
+### New York — 🔴 RAISE Act (effective January 1, 2027)
+Responsible AI Safety and Education Act, signed December 19, 2025 and **amended by chapter amendment signed March 27, 2026** (the operative version). Frontier-model law converging with California's SB 53: large frontier developers must publish a "frontier AI framework" (same term as CA), file a disclosure statement with the regulator, and pay an assessment before developing/deploying a frontier model in New York. Oversight by a new office within the **Department of Financial Services** (rulemaking authority); NY AG has exclusive enforcement. Expect a federal preemption challenge.
+
+### Utah — AI Policy Act (as amended 2025)
+Original 2024 act required disclosure that a consumer is interacting with generative AI. **As amended (SB 226/SB 332, 2025):** disclosure on clear request applies to regulated-occupation and consumer-transaction contexts; *prominent upfront* disclosure required only for "high-risk" generative AI interactions (sensitive data + advice for significant decisions). Safe harbor for regulatory mitigation. The Policy Act chapter carries a **July 1, 2027 repeal date** (commentators note the disclosure provisions codified separately may survive — verify against current Utah Code before relying). Additional 2026 Utah laws: Digital Content Provenance Standards Act (in force Jan 1, 2027).
+
+### Other 2026-session state AI laws (🟡 verify before relying)
+- **California (2026 session):** two dozen+ privacy/AI bills signed, incl. **AB 1883** (bars workplace AI tools inferring employees' emotional states or collecting neural data — effective Jan 1, 2027)
+- **Washington:** generative AI disclosure law, effective Feb 1, 2027
 
 ### Texas, Virginia, Connecticut, Montana
 Privacy laws include provisions on profiling and automated decisions — opt-out rights required.
@@ -115,7 +127,7 @@ California B.O.T. Disclosure Act: Bots communicating with Californians in commer
 
 - **🔴 Federal preemption fight** — the Dec 2025 EO, DOJ AI Litigation Task Force, and pending FTC preemption policy statement are the dominant storyline. Congress may attach AI preemption to must-pass legislation. State compliance obligations could shift quickly.
 - **Federal AI legislation** — multiple bills active in Congress; preemption-focused proposals now most likely vehicle.
-- **EU AI Act** — if any commercial activity touches EU users, the EU AI Act applies. Tiered risk system; high-risk obligations phasing in through 2026–2027.
+- **🔴 EU AI Act + Digital Omnibus (updated):** Article 50 transparency obligations (tell people they're dealing with AI; label deepfakes) **in force since August 2, 2026** — NOT delayed. The **Digital Omnibus on AI** (Council final approval June 29, 2026) postponed the high-risk obligations: Annex III standalone systems to **December 2, 2027**, Annex I embedded/regulated-product AI to **August 2, 2028**. Art. 50(2) machine-readable marking of AI-generated content for systems already on the market before Aug 2, 2026 applies from **~December 2, 2026** (sources differ slightly — read the Official Journal text before relying). Commission Art. 50 guidelines adopted July 20, 2026. Applies to anyone offering AI-enabled products in the EU.
 - **Liability for AI outputs** — courts and legislatures actively working on questions of who bears liability for harmful AI-generated content or decisions.
 - **AI in insurance** — NAIC model bulletin now adopted by 24 states + DC (see insurance_tech.md).
 - **State session wave** — more state AI bills passing despite federal pressure; re-check state list monthly.
@@ -134,5 +146,5 @@ California B.O.T. Disclosure Act: Bots communicating with Californians in commer
 
 ---
 
-*Last verified against: nist.gov, ftc.gov, federalregister.gov, whitehouse.gov, leg.colorado.gov, ilga.gov (2026-07-07)*  
-*Next scheduled check: 2026-08-01*
+*Last verified against: nist.gov, ftc.gov, federalregister.gov, governor.ny.gov, le.utah.gov, EU sources (secondary — see note) (2026-11-16)*  
+*Next scheduled check: 2026-12-01*

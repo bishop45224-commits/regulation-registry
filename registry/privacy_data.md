@@ -1,8 +1,8 @@
 ---
 domain: Privacy & Data
-version: 1.1
-last_verified: 2026-07-01
-next_check_due: 2026-08-01
+version: 1.2
+last_verified: 2026-11-16
+next_check_due: 2026-12-01
 sources: [ftc.gov, consumerfinance.gov, federalregister.gov]
 applies_to_projects: []
 ---
@@ -41,6 +41,11 @@ Applies to financial institutions. Requires notice of information sharing practi
 Applies to covered entities and business associates handling protected health information (PHI). Requires administrative, physical, and technical safeguards.
 
 **Applies if:** Collecting or processing any health-related data.
+
+### FTC Health Breach Notification Rule (amended 2024) — 🟡 NEW TO REGISTRY
+Covers vendors of personal health records **outside HIPAA** — explicitly including health and wellness apps whose records can draw information from multiple sources. An **unauthorized disclosure** (not just a hack) counts as a breach; notice to affected individuals, the FTC, and sometimes media required. A note-taking or scheduling app holding user-typed health notes is generally not a covered PHR, but connecting to fitness/health APIs or devices can bring an app into scope.
+
+**Applies if:** App draws health data from multiple sources (e.g., fitness-tracker or health-app integrations).
 
 ### Children's Online Privacy Protection Act (COPPA)
 Applies to online services directed to children under 13. Requires verifiable parental consent before collecting personal data.
@@ -81,7 +86,17 @@ All have enacted comprehensive consumer privacy laws in the 2023–2025 wave. Mo
 - **Maryland (MODPA):** effective October 1, 2025 — 🔴 strictest data-minimization requirements of any state law (collection limited to what is reasonably necessary; sensitive data sale broadly prohibited)
 - **🔴 Indiana (ICDPA), Kentucky (KCDPA), Rhode Island (RIDTPPA): all effective January 1, 2026.** Indiana and Kentucky track the Virginia model (penalties up to $7,500/violation, 30-day cure). Rhode Island has notably **low applicability thresholds** (35K consumers, or 10K if >20% revenue from data sales), penalties up to $10,000/violation, and **no cure period**.
 
+**🟡 Next wave (passed 2026, not yet effective — verify enacted texts):**
+- **Louisiana** (Data Privacy Act) and **Oklahoma**: effective **January 1, 2027**
+- **Delaware amendments** expanding covered businesses: January 1, 2027
+- **Alabama**: May 1, 2027 · **Vermont**: January 1, 2028
+
 **Pattern across these states:** Controller/processor framework, consumer rights (access/delete/correct/portability/opt-out of profiling), data protection assessments for high-risk processing, no private right of action (except Delaware for some provisions).
+
+### Ohio — 🟡 NEW TO REGISTRY (no comprehensive privacy law)
+Ohio has **not** passed a CCPA-style law. An **Ohio Personal Privacy Act** has been introduced in the legislature; no passage found as of 2026-11-16. What Ohio does have:
+- **Breach notification (ORC 1349.19):** "personal information" = name joined to SSN, driver's license/state ID number, or account/card number with access code; notice within **45 days**.
+- **Ohio Data Protection Act (ORC 1354):** voluntary **safe harbor** — a written security program conforming to a recognized framework (e.g., NIST CSF) is an affirmative defense to data-breach tort claims. Cheap insurance for any Ohio-based operation holding personal data on a server.
 
 ### Illinois — BIPA (Biometric Information Privacy Act)
 **Enforced by:** Private right of action (significant litigation risk)  
@@ -94,7 +109,7 @@ Applies to any collection or use of biometric identifiers (fingerprints, facial 
 ## Emerging / Watch Areas
 
 ### Federal Comprehensive Privacy Law
-🟡 APRA is dead. The current vehicle is the **SECURE Data Act** (House Energy & Commerce, introduced April 2026) — would establish a single federal privacy law and **preempt the state patchwork**. Also introduced: Consumer Data Privacy and Security Act of 2026 (Senate). No passage yet; preemption scope is the key fight. Watch closely — passage would restructure this entire file.
+🟡 APRA is dead. The current vehicle is the **SECURE Data Act** (H.R. 8413, House Energy & Commerce, introduced April 22, 2026) — would establish a single federal privacy law and **preempt the state patchwork**. Also introduced: Consumer Data Privacy and Security Act of 2026 (Senate). **No sign of passage as of 2026-11-16**; preemption scope is the key fight. Watch closely — passage would restructure this entire file.
 
 ### AI-Specific Privacy Rules
 FTC has signaled that automated decision-making using personal data will face heightened scrutiny. Several states are moving on AI-specific rules that overlap with privacy (profiling, discrimination in automated decisions). California's CPPA ADMT regulations (effective Jan 1, 2026 — see CCPA section) are the most concrete. 🟡 Note: the December 2025 federal executive order pushing preemption of state AI laws (see ai_automation.md) creates uncertainty for state ADMT/profiling rules, but state laws remain enforceable unless a court or Congress says otherwise.
@@ -116,5 +131,5 @@ Several states have passed laws requiring data brokers to register and/or allow 
 
 ---
 
-*Last verified against: ftc.gov, federalregister.gov, consumerfinance.gov, cppa.ca.gov (2026-07-01)*  
-*Next scheduled check: 2026-08-01*
+*Last verified against: ftc.gov, federalregister.gov, consumerfinance.gov, cppa.ca.gov, congress.gov, ohioattorneygeneral.gov (2026-11-16; some state-law items via secondary sources — verify enacted texts)*  
+*Next scheduled check: 2026-12-01*
